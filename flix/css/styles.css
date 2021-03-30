@@ -2,6 +2,7 @@
 *{
     margin: 0;
   }
+  
   body, html {
     font-family: 'Roboto Mono',monospace;
     text-align:center;
@@ -11,9 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('img/Cinema-1.jpg');
-    /*background-image: url("https://perabeats.lk/wp-content/uploads/2020/07/cinema-01.jpg"); */
-    /*background-image: url('https://www.uema.br/wp-content/uploads/2016/08/cinema34.jpg'); */
+    background-image: url('/img/Cinema-1.jpg');
     }
   
     .container {
@@ -77,6 +76,8 @@
     
     .form-wrapper button:hover {
       opacity:.8;
+      border: 3px;
+      border-style: solid;
     }
   
   #listaFilmes{

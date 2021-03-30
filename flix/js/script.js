@@ -28,7 +28,6 @@ function adicionarFilme(){
 }
 
 function addAoCatalogo(dados) {
-  //console.log(dados)
   if(dados.Response === "True"){
     //verifica se o filme já está na lista
     if(listadeFilmes.indexOf(dados.Title) >= 0){
@@ -89,9 +88,9 @@ function addremoveBanner(elemn, dTitle){
   });
 }
 
-title = 'Alien'
-var url = "https://omdbapi.com/?apikey=627ad0ee&t=" + title;
-buscarFilme(url)
+//title = 'Alien'
+//var url = "https://omdbapi.com/?apikey=627ad0ee&t=" + title;
+//buscarFilme(url)
 
 //title = 'Batman'
 //var url = "https://omdbapi.com/?apikey=627ad0ee&t=" + title;
