@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+  }
+  body, html {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-color: #000000;
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('img/Cinema-1.jpg');
+    /*background-image: url("https://perabeats.lk/wp-content/uploads/2020/07/cinema-01.jpg"); */
+    /*background-image: url('https://www.uema.br/wp-content/uploads/2016/08/cinema34.jpg'); */
+    }
+  
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .page-title {
+      color: #ffffff;
+      margin: 0 0 5px;
+    }
+    
+    .page-subtitle {
+      color: #ffffff;
+      margin-top: 5px;
+    }
+    
+    .page-logo {
+      width: 200px;
+      position: absolute;
+      top: 10px;
+      left:10px;
+    }
+    
+    .alura-logo {
+      width: 40px;
+      position: absolute;
+      top: 10px;
+      right:10px;
+    }
+  
+    .form-wrapper {
+      margin: 0 0 15px;
+      display: block;
+    }
+    
+    .form-wrapper input {
+      display: block;
+      margin: 5px auto;
+      padding: 10px 15px;
+      border: 3px;
+      border-style: solid;
+      border-color: #DA1E26;
+      border-radius: 20px;
+      text-align: center;
+    }
+    
+    .form-wrapper button {
+      display: block;
+      border: 0;
+      color: #ffffff;
+      background: #DA1E26;
+      font-weight:bold;
+      padding: 15px 20px;
+      font-size: 16px;
+      border-radius: 30px;
+      margin: 20px auto;
+      cursor: pointer;
+      transition: .3s;
+    }
+    
+    .form-wrapper button:hover {
+      opacity:.8;
+    }
+  
+  #listaFilmes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  .poster{
+      margin: 10px;
+  }
+  
+  .poster img:hover {
+    transform: scale(1.05);
+    transition: all .3s ease-out;
+  }
+  
+  .banner{
+    margin: 3px;
+    border: 8px;
+    border-style: double;
+    border-color: #e6ebf7;
+    border-radius: 5px;
+    min-width: 360px;
+    min-height: 540px;
+    max-width: 420px;
+  }
+  
+  .btitle{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ea/Picto_infobox_cinema.png');
+    height: 100px;
+    /*background-position: center;*/
+    background-size: cover;
+    margin: 10px;
+    background-color: rgb(14, 46, 81);
+    font-size: 14pt;
+    position: relative;
+  }
+  
+  .rmv-btn {
+    width:20px;
+    height:20px;
+    background-color: #DA1E26;
+    border: 8px;
+    border-radius: 30px;
+    border-style: double;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.3;
+    position: absolute;
+    transition: all .3s ease-out;
+    top: -8px;
+    right: -8px;
+  }
+  
+  .rmv-btn:hover {
+    width: 30px;
+    height: 30px;
+    opacity: .7;
+    transform: scale(1.08);
+    transition: all .3s ease-out;
+  }
+  
+  .mv-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 24pt;
+    margin: 0 auto;
+    position: relative;
+    font-weight: bold;
+  }
