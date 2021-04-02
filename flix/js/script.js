@@ -5,7 +5,7 @@ var input = document.querySelector("#inpt");
 input.addEventListener("keyup", (event) => {
   if (event.key == "Enter") {
     event.preventDefault();
-    document.getElementById("myBtn").click();
+    document.getElementById("myBtn").onclick();
   }
 });
 
@@ -40,7 +40,6 @@ function addAoCatalogo(dados) {
   }else{ alert("FILME NÃO ENCONTRADO") }
   
   var lista = document.querySelector("#listaFilmes").children
-  console.log(lista)
   console.log(listadeFilmes)
 }
 

@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url("/img/HoughtonAurora_03_2019.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #081420;
+  }
+
+h1 {
+    font-size: 30pt;
+}
+
+h2, h3 {
+  margin: 4px auto;
+}
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 22pt;
+  }
+  
+  .page-logo {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+    display: inline-flex;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 30px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #DA1E26;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 30px;
+  }
+  
+  .form-wrapper button:hover {
+    opacity:.8;
+  }
+
+.view {
+  width: 75%;
+  height: auto;
+  margin: 3px;
+  border-radius: 5px;
+  background-size: cover;
+  background-color: #fffefe7a;
+}
+
+.view, input {
+  border: 4px;
+  border-style: solid;
+  border-color: #DA1E26;
+}
+
+#listaFilmes {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+  margin: 8px auto;
+  max-width: 98%;
+}
+
+.media-img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  text-align: justify;
+  margin: 20px;
+}
+
+/* .info, media, media-i, view, img {
+  border: 2px;
+  border-style: solid;
+  border-color: lime;
+} */
